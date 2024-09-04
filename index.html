@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+        rel="stylesheet">
+
+    <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@latest/css/boxicons.min.css'>
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kaio Moraes</title>
+
+<body>
+    <main>
+        <!-- Hero Header -->
+        <header id="heroHeader" class="hero-header">
+            <nav id="navBar" class="nav">
+                <div class="container">
+                    <button type="button" id="hamburgerBtn" class="nav__hamburger-btn">
+                        <span class="nav__hamburger-top"></span>
+                        <span class="nav__hamburger-center"></span>
+                        <span class="nav__hamburger-bottom"></span>
+                    </button>
+                    <ul id="navList" class="nav__list">
+                        <li class="nav__list-item">
+                            <a class="nav__list-link active" href="#heroHeader">&lt;Home &sol;&gt;</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="#services">&lt;Habilidades &sol;&gt;</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="#works">&lt;Projetos &sol;&gt;</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="#contact">&lt;Contato &sol;&gt;</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <section class="header__container container">
+                <div class="header__left">
+                    <span class="header__sup-text">Hello There! I am a</span>
+                    <h1 class="header__title">
+                        <span class="header__title-1" data-role="WEB">Front-end</span>
+                        <span class="header__title-2" data-role="DEVELOPER">Developer</span>
+                    </h1>
+                    <p class="header__msg">Como desenvolvedor front-end,
+                        minha paixão está em criar experiências de usuário bonitas e intuitivas
+                        por meio do uso de código limpo e eficiente.</p>
+                    <a href="#" class="header__resume">Currículo</a>
+                </div>
+                <div class="header__right">
+                    <img src="./assets/illustrations/header.svg" alt="Header section illustration" />
+                </div>
+            </section>
+            <span class="header__bg"></span>
+        </header>
+
+        <!-- Services -->
+        <section id="services" class="section container">
+            <h2 class="section__title">Habilidades</h2>
+
+            <div class="service-cards">
+                <article class="service-card__box">
+                    <h3 class="service-card__title">Javascript</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">Jquery</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">Bootstrap</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">SASS & LESS</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">GULP & GRANT</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">TypeScript</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">VueJS</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">React</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">Redux</h3>
+                </article>
+                <article class="service-card__box">
+                    <h3 class="service-card__title">Cyberpress</h3>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sample Works -->
+        <section id="works" class="section container">
+            <h2 class="section__title">Projetos</h2>
+            <div class="works">
+                <article class="work">
+                    <div class="work__box">
+                        <span class="work__img-box">
+                            <img src="assets/img-projetos/rent_house.png" alt="alugel_imovel" />
+                        </span>
+                        <h3 class="work__title">Aluguel de Casa</h3>
+                        <span class="work__badges">
+                            <span class="work__badge">HTML</span>
+                            <span class="work__badge">CSS</span>
+                        </span>
+                        <div class="overlay">
+                            <a href="https://github.com/kaio-moraes/house_rent" target="_blank"><i
+                                    class='bx bxl-github'> Script</i></a>
+                            <a href="https://kaio-house-rent.vercel.app/" target="_blank"><i class='bx bx-link'>
+                                    Website</i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="work">
+                    <div class="work__box">
+                        <span class="work__img-box">
+                            <img src="assets/img-projetos/restaurante.png" alt="restaurante" />
+                        </span>
+                        <h3 class="work__title">Restaurante Brasileiro</h3>
+                        <span class="work__badges">
+                            <span class="work__badge">HTML</span>
+                            <span class="work__badge">CSS</span>
+                            <span class="work__badge">Bootstrap</span>
+                        </span>
+                        <div class="overlay">
+                            <a href="https://github.com/kaio-moraes/restaurant-landpage" target="_blank"><i
+                                    class='bx bxl-github'> Script</i></a>
+                            <a href="https://kaio-restaurant-landpage.vercel.app/" target="_blank"><i class='bx bx-link'>
+                                    Website</i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section container">
+            <h2 class="section__title">Vamos nos conectar!</h2>
+            <div class="contact">
+                <form class="contact__form">
+                    <div class="contact__field-wrapper">
+                        <label for="contactNameTxt">Nome:</label>
+                        <input id="contactNameTxt" type="text" placeholder="Qual o seu nome?" />
+                    </div>
+                    <div class="contact__field-wrapper">
+                        <label for="contactDescriptionTxt">Mensagem:</label>
+                        <textarea id="contactDescriptionTxt" placeholder="Escreva sua mensagem!"></textarea>
+                    </div>
+
+                    <button type="submit" class="contact__submit-btn">Enviar</button>
+                </form>
+                <span class="contact__illustration">
+                    <img src="./assets/illustrations/connect.svg" alt="Group of people connecting with each other" />
+                </span>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
